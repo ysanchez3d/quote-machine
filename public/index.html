@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Quote Machine</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <script type="module" src="/javascripts/main.js"></script>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="favorites">
+      <h2 class="favorites-header">Favorites</h2>
+      <ul class="list-favorites">
+      </ul>
+    </div>
+    <main class="quotes">
+      <a href="" class="categories btn"></a>
+      <label for="categories">Category:</label>
+      <select name="categories" id="categories" size="1">
+      </select>
+      <figure>
+        <q id="currentQuote">
+        </q>
+        <figcaption>&mdash; <span id="currentAuthor"></span></figcaption>
+      </figure>
+      <div class="action-buttons">
+        <a id="save-quote" class="like btn"><i id="star" class="bi bi-star"></i></a>
+        <a href="#" id="new-quote" class="new-quote btn">New Quote</a>
+      </div>
+    </main>
+  </div>
+</body>
+
+</html>
